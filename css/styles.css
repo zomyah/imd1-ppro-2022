@@ -31,3 +31,23 @@ h3 {
   font-family: 'Patrick Hand', cursive;
   color: rgb(199, 113, 97);
 }
+
+img {
+  max-width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.info {
+  font-size: 10px;
+}
+
+footer {
+  background-color: rgb(199, 113, 97);
+}
+
+.contact {
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+}
