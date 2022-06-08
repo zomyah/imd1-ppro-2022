@@ -1,4 +1,33 @@
-h1 {
+.logo {
   font-family: 'Patrick Hand', cursive;
+  color: rgb(173, 195, 184);
 }
 
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.element {
+font-family: 'Courier New', Courier, monospace;
+font-size: 12px;
+}
+
+.element:visited {
+  color: rgb(199, 113, 97);
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(173, 195, 184);
+}
+
+h3 {
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(199, 113, 97);
+}
