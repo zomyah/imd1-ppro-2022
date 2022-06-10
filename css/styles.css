@@ -12,6 +12,7 @@ body {
 
 main {
   margin: 20px 20px;
+  padding: 10px 10px;
 }
 
 .element {
@@ -27,6 +28,8 @@ h1 {
   font-size: 35px;
   color: rgb(173, 195, 184);
   margin: 25px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
@@ -60,8 +63,9 @@ footer {
 .contact {
   color: white;
   font-family: 'Patrick Hand', cursive;
-  margin: 10px;
-  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 25px;
 }
 
 .floraison {
@@ -94,14 +98,17 @@ footer {
   width: 45px;
   display: flex;
   justify-content: center;
+  margin: 20px;
 }
 
 .txt {
   color: rgb(173, 195, 184);
   margin: auto;
+  margin-left: 10px;
   font-size: 12px;
 }
 
 p {
   margin-top: 25px;
 }
+
