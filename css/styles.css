@@ -1,25 +1,31 @@
-.logo {
-  font-family: 'Patrick Hand', cursive;
-  color: rgb(173, 195, 184);
-}
-
 .section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.element {
-font-family: 'Courier New', Courier, monospace;
-font-size: 12px;
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
 }
+
+main {
+  margin: 10px 10px;
+}
+
+.element {
+  font-size: 12px;
+  }
 
 .element:visited {
   color: rgb(199, 113, 97);
 }
 
-p {
-  font-family: 'Courier New', Courier, monospace;
+h1 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 35px;
+  color: rgb(173, 195, 184);
+  margin: 25px 20px;
 }
 
 h2 {
@@ -30,6 +36,7 @@ h2 {
 h3 {
   font-family: 'Patrick Hand', cursive;
   color: rgb(199, 113, 97);
+  font-size: 20px;
 }
 
 img {
@@ -37,6 +44,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  display: block;
 }
 
 .info {
@@ -50,4 +58,42 @@ footer {
 .contact {
   color: white;
   font-family: 'Patrick Hand', cursive;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.floraison {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.nom-pousse {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.infofooter {
+  margin: 0;
+  padding: 10px 10px;
+  font-size: 10px;
+}
+
+.button {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgb(199, 113, 97);
+  font-size: 15px;
+}
+
+.txt {
+  color: rgb(173, 195, 184);
+  margin: auto;
 }
